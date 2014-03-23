@@ -16,6 +16,10 @@ module.exports = {
     isComplete: {
       type: 'boolean',
       defaultsTo: false
+    },
+    dueToday: {
+      type: 'boolean',
+      defaultsTo: true
     }
   }
 

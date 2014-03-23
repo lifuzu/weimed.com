@@ -38,7 +38,7 @@ module.exports.routes = {
   '/rest-examples': {
     view: 'main/rest'
   },
-  '/todos': 'MainController.todos',
+  '/todaytodo': 'MainController.todos',
 
   //
   // Passport Auth Routes
