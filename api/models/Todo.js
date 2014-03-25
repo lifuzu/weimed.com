@@ -13,6 +13,10 @@ module.exports = {
       type: 'string',
       required: true
     },
+    content: {
+      type: 'string',
+      defaultsTo: ''
+    },
     isComplete: {
       type: 'boolean',
       defaultsTo: false

@@ -1,0 +1,2 @@
+use todaytodo
+db.addUser({ user: "todaytodo", pwd: "", roles: ["readWrite", "dbAdmin"]})
